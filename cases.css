@@ -4,7 +4,6 @@ body {
 
 .wrapper {
     margin: 0 auto;
-    /* background-color: rgb(209, 20, 20); */
     width: 1132px;
     min-width: 1132px;
 }
@@ -220,7 +219,7 @@ select[name="select-a-type-of-website"] {
     margin-left: 32px;
 }
 
-.dota2-skins {
+.skins {
     width: 91.16%;
     margin: 0 50px;
     margin-top: 30px;
@@ -228,7 +227,7 @@ select[name="select-a-type-of-website"] {
     flex-direction: column;
 }
 
-.dota2-skins h4 {
+.skins h4 {
     font-family: "Noto Sans", sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -239,40 +238,65 @@ select[name="select-a-type-of-website"] {
     color: #b6b3cc;
 }
 
-.dota2-skins-container {
+.skins-container {
     display: flex;
     flex-direction: row;
 }
 
-.dota2-skins-container h4:first-child {
+.skins-container h4:first-child {
     padding-left: 2.32%;
 }
 
-.dota2-skins-container h4:nth-child(2) {
+.skins-container h4:nth-child(2) {
     padding-left: 11.71%;
 }
 
-.dota2-skins-container h4:nth-child(3) {
+.skins-container h4:nth-child(3) {
     padding-left: 2.2%;
 }
 
-.dota2-skins-container h4:nth-child(4) {
+.skins-container h4:nth-child(4) {
     padding-left: 5.23%;
 }
 
-.dota2-skins-container h4:nth-child(5) {
+.skins-container h4:nth-child(5) {
     padding-left: 12.3%;
 }
 
-.dota2-skins-container h4:nth-child(6) {
+.skins-container h4:nth-child(6) {
     padding-left: 11.71%;
 }
 
-.dota2-skins div:nth-child(2) {
+.skins div:nth-child(2) {
     margin-top: 23px;
 }
 
-.dota-2-skins-item {
+.skins div:nth-child(3) .submit-buttons-container {
+    width: 32.94%;
+    justify-content: flex-end;
+}
+
+.skins div:nth-child(4) .submit-buttons-container {
+    width: 32.94%;
+    justify-content: flex-end;
+}
+
+.skins div:nth-child(5) .submit-buttons-container {
+    width: 32.94%;
+    justify-content: flex-end;
+}
+
+.skins div:nth-child(6) .submit-buttons-container {
+    width: 32.94%;
+    justify-content: flex-end;
+}
+
+.skins div:nth-child(7) .submit-buttons-container {
+    width: 32.94%;
+    justify-content: flex-end;
+}
+
+.skins-item {
     height: 84px;
     display: flex;
     flex-direction: row;
@@ -283,18 +307,17 @@ select[name="select-a-type-of-website"] {
     margin-bottom: 16px;
 }
 
-.dota2-skins div:nth-child(6) {
+.skins div:nth-child(6) {
     margin-bottom: 0;
 }
 
-.dota-2-skins-item h3 {
+.skins-item h3 {
     font-family: "Noto Sans", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
     line-height: 24px;
     color: #191b31;
-    padding-left: 1.55%;
 }
 
 .martin-luther {
@@ -309,16 +332,11 @@ select[name="select-a-type-of-website"] {
     align-items: center;
 }
 
-.zhan-kalvin h3 {
-    padding-left: 11.55%;
-}
-
-.carl-v {
-    padding-left: 6%;
-}
-
-.dota-2-skins-item>h5 {
-    padding-left: 34px;
+.rate-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .country {
@@ -326,7 +344,6 @@ select[name="select-a-type-of-website"] {
     flex-direction: row;
     justify-content: space-between;
     width: 12.79%;
-    padding-left: 3.39%;
 }
 
 .country button {
@@ -336,12 +353,16 @@ select[name="select-a-type-of-website"] {
     height: auto;
 }
 
-.dota-2-skins-item .current {
-    width: 165px;
+.skins-item .current {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    padding-left: 45px;
+}
+
+.thomas-muncer {
+    display: Flex;
+    flex-direction: Row;
+    justify-content: center;
 }
 
 .current h5 {
@@ -371,7 +392,6 @@ select[name="select-a-type-of-website"] {
     line-height: 24px;
     text-align: center;
     color: #191b31;
-    padding-left: 65px;
 }
 
 .center {
@@ -404,11 +424,10 @@ button[type="submit"] {
 }
 
 .submit-buttons-container {
-    width: 180px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-left: 16.6%;
+    /* padding-left: 16.6%; */
 }
 
 .cs-go {
@@ -466,4 +485,8 @@ button[type="submit"] {
     justify-content: space-between;
     width: 38.56%;
     margin-left: 32px;
+}
+
+.fortenn-per-cent {
+    width: 17.24%;
 }
