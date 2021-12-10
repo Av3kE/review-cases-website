@@ -24,7 +24,7 @@ body {
     width: 18%;
 }
 
-.pirple-text {
+.purple-text {
     color: #5754b0;
     text-decoration: none;
     font-family: "Noto Sans", sans-serif;
@@ -35,7 +35,7 @@ body {
     text-transform: uppercase;
 }
 
-.pirple-text:hover {
+.purple-text:hover {
     transform: scale(1.2);
     transition: 1s all;
 }
@@ -434,7 +434,7 @@ button[type="submit"] {
     display: flex;
     align-items: center;
     background-color: #5754b0;
-    background-image: url("img/image\ 22.png");
+    background-image: url("img/image\ 23.png");
     border-radius: 16px;
     width: 1032px;
     height: 100px;
@@ -489,4 +489,28 @@ button[type="submit"] {
 
 .fortenn-per-cent {
     width: 17.24%;
+}
+
+.purple-banner {
+    width: 91.16%;
+    background: #5754B0;
+    border-radius: 10px;
+    margin: 0 auto
+}
+
+.purple-banner h3 {
+    font-family: "Noto Sans", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.purple-banner p {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 15px;
+    line-height: 22px;
+    color: #FFFFFF;
+    opacity: 0.8;
 }
