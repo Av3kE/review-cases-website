@@ -493,24 +493,124 @@ button[type="submit"] {
 
 .purple-banner {
     width: 91.16%;
+    display: flex;
     background: #5754B0;
     border-radius: 10px;
-    margin: 0 auto
+    margin: 0 auto;
 }
 
-.purple-banner h3 {
+.purple-banner>div {
+    position: absolute;
+    padding-left: 30%;
+    padding-top: 4.8%;
+}
+
+.purple-banner>div h3 {
     font-family: "Noto Sans", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
     line-height: 32px;
     color: #FFFFFF;
+    padding-bottom: 16px;
 }
 
-.purple-banner p {
+.purple-banner>div p {
     font-family: "Noto Sans", sans-serif;
     font-size: 15px;
     line-height: 22px;
     color: #FFFFFF;
     opacity: 0.8;
+}
+
+footer {
+    width: 91.16%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.daisyridley {
+    width: 25%;
+}
+
+.daisyridley-container {
+    display: flex;
+    padding-top: 8.81%;
+}
+
+.daisyridley {
+    display: flex;
+    flex-direction: column;
+}
+
+.daisyridley h2>a {
+    color: #5754B0;
+}
+
+.daisyridley a {
+    text-decoration: none;
+    color: #80809D;
+}
+
+.daisyridley h3:hover {
+    transform: scale(1.2);
+    transition: 1s all;
+}
+
+.daisyridley h2:hover {
+    transform: scale(1.1);
+    transition: 3s all;
+}
+
+.daisyridley h2 {
+    font-family: "Noto Sans", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #5754B0;
+    padding-bottom: 24px;
+}
+
+.daisyridley h3 {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    color: #80809D;
+    padding-bottom: 24px;
+}
+
+.daisyridley:nth-child(2) h3:first-child {
+    padding-top: 43px;
+}
+
+footer div:last-child {
+    display: flex;
+    padding-top: 40px;
+}
+
+footer div:last-child h5 {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    color: #191B31;
+    opacity: 0.35;
+    padding-left: 8.83%;
+}
+
+footer div:last-child h6 {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    color: #191B31;
+    opacity: 0.5;
+    padding-left: 400px;
+}
+
+.rei {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid lightgray;
 }
