@@ -267,7 +267,7 @@ select[name="select-a-type-of-website"] {
     padding-left: 11.71%;
 }
 
-.skins div:nth-child(2) {
+.skins > div:nth-child(2) {
     margin-top: 23px;
 }
 
