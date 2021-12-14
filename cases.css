@@ -4,8 +4,8 @@ body {
 
 .wrapper {
     margin: 0 auto;
-    width: 1132px;
-    min-width: 1132px;
+    /* width: 1132px; */
+    max-width: 1132px;
 }
 
 .container-header {
@@ -267,7 +267,7 @@ select[name="select-a-type-of-website"] {
     padding-left: 11.71%;
 }
 
-.skins div:nth-child(2) {
+.skins > div:nth-child(2) {
     margin-top: 23px;
 }
 
@@ -297,7 +297,7 @@ select[name="select-a-type-of-website"] {
 }
 
 .skins-item {
-    height: 84px;
+    height: 84px; 
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -613,4 +613,85 @@ footer div:last-child h6 {
     display: flex;
     align-items: center;
     border-top: 1px solid lightgray;
+}
+
+@media screen and (max-width:1100px){
+    .skins-container {
+        display: none;
+    }
+    .skins {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .skins > div:nth-child(2) {
+        margin-top: 10px;
+    }
+    .skins-item {
+        min-height: 140px;
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+        height: auto;
+        max-width: 45%;
+        margin: 10px;
+        padding: 5px;
+    }
+    .fortenn-per-cent {
+        width: auto;
+    }
+
+    .country,
+    .current {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .country img {
+        margin: 0 5px;
+    }
+
+    .skins-item .current {
+        justify-content: center;
+    }
+
+    .promocode {
+        display: none;
+    }
+
+    .current h5 {
+        margin: 10px;
+    }
+
+    .rate-container,
+    .zhan-kalvin {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .rate-container{
+        justify-content: space-around;
+    }
+    
+    .skins div:nth-child(5).submit-buttons-container {
+        width: 100%;   
+        justify-content: center;
+    }
+}
+
+
+@media screen and (max-width:750px){
+    .skins {
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .skins > div:nth-child(2) {
+        margin-top: 10px;
+    }
+    .skins-item {
+        max-width: 95%;
+        
+    }
+    
 }
